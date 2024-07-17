@@ -29,6 +29,5 @@ router.get('/', (req, res) => {
     res.send('<h1>Olla Server!</h1>');
 });
 
-const handler = serverless(api)
-
-export default handler;
+module.exports = app;
+module.exports.handler = serverless(app);

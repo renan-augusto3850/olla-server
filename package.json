@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Server side from Olla",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "dev": "node ./api/index.js"
   },
