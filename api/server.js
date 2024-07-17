@@ -1,3 +1,4 @@
+'use strict';
 import express, { Router } from 'express';
 import { ExpressPeerServer } from 'peer';
 import cors from 'cors';
@@ -26,8 +27,7 @@ const peerServer = ExpressPeerServer(server, {
 
 app.use('/olla', peerServer);
 router.get('/', (req, res) => {
-    res.send('<h1>Olla Server!</h1>');
+    res.write('<h1>Olla Server!</h1>');
 });
 
-module.exports = app;
-module.exports.handler = serverless(app);
+export default app;
