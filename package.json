@@ -1,0 +1,19 @@
+{
+  "name": "olla-server",
+  "version": "1.0.0",
+  "description": "Server side from Olla",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./api/index.js"
+  },
+  "author": "Renan Augusto",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "peer": "^1.0.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "vercel": "^32.3.0"
+  }
+}
