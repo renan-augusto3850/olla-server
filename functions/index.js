@@ -19,5 +19,5 @@ app.get('/', (req, res) => {
 });
 
 server.listen(9000, () => {
-    console.log('PeerJS server is running on port 3000');
+    console.log('PeerJS server is running on port 9000');
 });
