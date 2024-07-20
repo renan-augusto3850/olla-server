@@ -4,7 +4,7 @@
   "description": "Server side from Olla",
   "main": "functions/index.js",
   "scripts": {
-    "start": "node functions/index.js"
+    "dev": "node functions/index.js"
   },
   "author": "Renan Augusto",
   "license": "MIT",
