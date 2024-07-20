@@ -1,2 +1,6 @@
 [build]
   functions = "functions"
+[dev]
+  command = "npm start"
+  port = 9000
+  targetPort = 9000
