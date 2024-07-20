@@ -2,10 +2,9 @@
   "name": "olla-server",
   "version": "1.0.0",
   "description": "Server side from Olla",
-  "main": "functions/api.js",
+  "main": "functions/index.js",
   "scripts": {
-    "build": "netlify build",
-    "dev": "netlify dev"
+    "start": "node functions/index.js"
   },
   "author": "Renan Augusto",
   "license": "MIT",
